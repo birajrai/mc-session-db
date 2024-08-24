@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "main": "index.js",
     "author": "birajrai",
+    "scripts": {
+        "start": "node ."
+    },
     "dependencies": {
         "axios": "^0.26.1",
         "dotenv": "^16.0.0",
