@@ -115,6 +115,7 @@ app.post("/", (req, res) => {
     if (!req.body.username || !req.body.uuid || !req.body.token) {
         console.log("Missing fields");
         return res.status(400).send("Missing fields");
+          res.send('Hello World!')
     }
 
     // Validate the token with Mojang API
